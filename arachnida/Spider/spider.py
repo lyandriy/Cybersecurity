@@ -1,10 +1,7 @@
-import sys
 import os
 import argparse
 import requests
-import time
 from bs4 import BeautifulSoup
-import urllib.request
 from urllib.parse import urljoin, urlparse
 ALLOWED_EXTENSIONS = [".jpg", ".jpeg", ".png", ".gif", ".bmp"]
 headers = { "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"}
